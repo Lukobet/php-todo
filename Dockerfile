@@ -35,6 +35,6 @@ RUN composer install
 
 
 
-#EXPOSE 8000
+EXPOSE 8000
 
-ENTRYPOINT [ "bash", "app.sh" ]
+ENTRYPOINT [ "bash", "start-apache.sh" ]
